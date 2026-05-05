@@ -1,26 +1,44 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import type { ReactNode } from "react";
+
+import { CustomCursor } from "@/components/CustomCursor";
 
 import "./globals.css";
 
-const geist = Geist({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  variable: "--font-geist-sans",
+  variable: "--font-space-grotesk",
+  weight: ["400", "500", "700"],
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  weight: ["400", "500", "600"],
+});
+
+const jetBrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
-  title: "Shashank | Developer Universe",
-  description: "Minimal black edition portfolio experience for systems-grade product engineering.",
+  title: "Shashank Gupta | Backend Engineer",
+  description:
+    "Portfolio of Shashank Gupta, a backend engineer building high-throughput backends, real-time pipelines, and AI systems.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={geist.variable}>{children}</body>
+    <html lang="en">
+      <body
+        className={`${spaceGrotesk.variable} ${inter.variable} ${jetBrainsMono.variable} bg-[#0a0a0a] text-[#f0f0f0]`}
+      >
+        <CustomCursor />
+        {children}
+      </body>
     </html>
   );
 }
