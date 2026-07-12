@@ -28,7 +28,7 @@ export function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-300 ease-out ${
         scrolled
-          ? "border-[#222222] bg-[rgba(10,10,10,0.9)] backdrop-blur-md"
+          ? "border-[#222222] bg-[#0a0a0a]"
           : "border-transparent bg-transparent"
       }`}
     >

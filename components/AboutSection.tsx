@@ -1,29 +1,29 @@
 const statCards = [
   {
-    value: "330+",
+    value: "450+",
     label: "LeetCode Problems",
-    meta: "149 Medium, 37 Hard",
+    meta: "Solved with strong DSA foundation",
   },
   {
-    value: "1,745",
+    value: "1,891",
     label: "Contest Rating",
-    meta: "Top 10.4% globally",
+    meta: "Active LeetCode competitor",
   },
   {
     value: "5,000+",
     label: "Documents/day",
-    meta: "BharatGPT pipeline",
+    meta: "Evoastra Ventures pipeline",
   },
   {
-    value: "50%",
-    label: "API Response Improvement",
-    meta: "1.4s → 700ms",
+    value: "~700ms",
+    label: "End-to-End Response",
+    meta: "RAG-based Document Q&A App",
   },
 ];
 
 const highlightTags = [
   "AWS Certified Cloud Practitioner",
-  "LeetCode Top 10.4%",
+  "LeetCode Rating: 1,891",
 ];
 
 export function AboutSection() {

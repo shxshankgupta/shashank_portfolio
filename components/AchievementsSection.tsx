@@ -7,8 +7,8 @@ const achievementCards = [
     icon: Cloud,
   },
   {
-    title: "LeetCode — Top 10.4% Globally",
-    description: "330+ problems solved (149 Medium, 37 Hard). Contest Rating: 1,745.",
+    title: "LeetCode — Rating: 1,891",
+    description: "Solved over 450 problems. Active competitor with a rating of 1,891.",
     icon: Code2,
   },
   {

@@ -1,26 +1,25 @@
 const experiences = [
   {
-    company: "CoRover.ai",
+    company: "Evoastra Ventures",
     role: "Software Engineer Trainee",
-    duration: "June 2025 – Sept 2025",
-    location: "Bengaluru, India",
-    stack: ["Python", "FastAPI", "Redis", "Celery", "Docker", "GitHub Actions", "pytest"],
+    duration: "Jan 2026 - May 2026",
+    location: "Mumbai, India",
+    stack: ["Python", "FastAPI", "SBERT", "XGBoost", "Docker", "GitHub Actions", "pytest"],
     bullets: [
-      "Built document retrieval pipeline for BharatGPT processing 5,000+ documents/day. Replaced keyword search with semantic retrieval — significantly improved accuracy.",
-      "Cut API response time by 50% (1.4s → 700ms) via Redis caching, connection pooling, and async request handling.",
-      "Containerized services with Docker, automated CI/CD via GitHub Actions, 85%+ test coverage with pytest.",
-      "Implemented Celery + Redis async task processing with retry logic and failure handling ensuring zero data loss under peak load.",
+      "Engineered and optimized a Django-style document retrieval pipeline for Market-Intelligence Systems, enabling an enterprise AI chatbot to process 5,000+ documents daily and transitioning from keyword search to semantic retrieval to enhance accuracy significantly.",
+      "Enhanced decision accuracy by replacing manual screening with semantic retrieval using SBERT embeddings, facilitating context-aware startup evaluations beyond simple keyword matching.",
+      "Containerized backend services with Docker and automated CI/CD processes using GitHub Actions, achieving 85%+ test coverage with pytest and eliminating manual deployment steps.",
     ],
   },
   {
     company: "MNIT Jaipur (NIT)",
     role: "Software Engineering Intern",
-    duration: "June 2024 – Aug 2024",
+    duration: "June 2025 - Aug 2025",
     location: "Jaipur, India",
-    stack: ["Python", "PostgreSQL", "JWT", "REST APIs", "RBAC"],
+    stack: ["Python", "PostgreSQL", "JWT", "REST APIs", "Role-Based Access Control"],
     bullets: [
-      "Designed RESTful APIs for a platform serving 300+ active users. Reduced slow-query response times via PostgreSQL indexes and query refactoring.",
-      "Implemented JWT-based authentication with role-based access control, request rate limiting, and structured logging.",
+      "Designed and maintained RESTful APIs for a web platform serving over 300 active users; optimized PostgreSQL indexes and refactored queries to reduce slow-query response times.",
+      "Implemented JWT-based authentication with role-based access control, request rate limiting, and structured logging, resulting in fewer unauthorized access attempts and enhanced debuggability.",
     ],
   },
 ];

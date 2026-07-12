@@ -16,7 +16,7 @@ const socialLinks = [
   },
   {
     href: "https://leetcode.com/u/shxshank/",
-    label: "LeetCode — 1,745 rating",
+    label: "LeetCode — 1,891 rating",
     icon: Trophy,
   },
 ];

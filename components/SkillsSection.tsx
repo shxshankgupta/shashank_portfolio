@@ -2,33 +2,34 @@
 
 import { useState } from "react";
 
-const tabs = ["All", "Backend", "Databases", "DevOps", "Frontend"] as const;
+const tabs = [
+  "All",
+  "Programming Languages",
+  "Frameworks & Libraries",
+  "Databases",
+  "Tools & Platforms",
+] as const;
 
 const skillData = [
-  { category: "Backend", label: "Python" },
-  { category: "Backend", label: "Django" },
-  { category: "Backend", label: "FastAPI" },
-  { category: "Backend", label: "REST APIs" },
-  { category: "Backend", label: "OOP" },
-  { category: "Backend", label: "Async I/O" },
-  { category: "Backend", label: "Celery" },
+  { category: "Programming Languages", label: "Python" },
+  { category: "Programming Languages", label: "JavaScript" },
+  { category: "Programming Languages", label: "SQL" },
+  { category: "Programming Languages", label: "Java" },
+  { category: "Frameworks & Libraries", label: "Django" },
+  { category: "Frameworks & Libraries", label: "FastAPI" },
+  { category: "Frameworks & Libraries", label: "REST APIs" },
+  { category: "Frameworks & Libraries", label: "OOP" },
+  { category: "Frameworks & Libraries", label: "Async I/O" },
+  { category: "Frameworks & Libraries", label: "React" },
+  { category: "Frameworks & Libraries", label: "Next.js" },
+  { category: "Frameworks & Libraries", label: "Tailwind CSS" },
   { category: "Databases", label: "PostgreSQL" },
   { category: "Databases", label: "MySQL" },
   { category: "Databases", label: "MongoDB" },
   { category: "Databases", label: "Redis" },
-  { category: "DevOps", label: "Docker" },
-  { category: "DevOps", label: "GitHub Actions" },
-  { category: "DevOps", label: "AWS EC2" },
-  { category: "DevOps", label: "AWS S3" },
-  { category: "DevOps", label: "AWS IAM" },
-  { category: "DevOps", label: "AWS VPC" },
-  { category: "DevOps", label: "CI/CD" },
-  { category: "Frontend", label: "React" },
-  { category: "Frontend", label: "Next.js" },
-  { category: "Frontend", label: "Tailwind CSS" },
-  { category: "Languages", label: "JavaScript" },
-  { category: "Languages", label: "SQL" },
-  { category: "Languages", label: "Java" },
+  { category: "Tools & Platforms", label: "Docker" },
+  { category: "Tools & Platforms", label: "GitHub Actions" },
+  { category: "Tools & Platforms", label: "AWS" },
 ];
 
 export function SkillsSection() {

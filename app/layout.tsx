@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import type { ReactNode } from "react";
 
-import { CustomCursor } from "@/components/CustomCursor";
-
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -36,7 +34,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body
         className={`${spaceGrotesk.variable} ${inter.variable} ${jetBrainsMono.variable} bg-[#0a0a0a] text-[#f0f0f0]`}
       >
-        <CustomCursor />
         {children}
       </body>
     </html>
